@@ -1,0 +1,7 @@
+.navmain{
+      display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    background-color: #f0f0f0;
+}

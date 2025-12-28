@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+}
+ 
+.aboutImage{
+    width: 300px;
+} 
+
+.body{
+    margin: 0;
+    padding: 0;
+}

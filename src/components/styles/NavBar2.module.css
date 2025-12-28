@@ -1,0 +1,63 @@
+.navcontainer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+.navlogo{
+    display: flex;
+    position: relative;
+    /* gap: 10px; */
+}
+.navlogo img{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    align-items: center;
+}
+.navlogo h1{
+    color: red;
+}
+.navlinkss{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+}
+.navlogin{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navlogin button{
+    padding: 10px;
+    border-radius: 5px;
+}
+.register{
+    /* background-color: blue; */
+    color: white;
+}
+.navlogin img{
+    height: 25px;
+    width: 25px;
+    padding: 30px 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.navlogin img:last-child{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 50%;
+}
+
