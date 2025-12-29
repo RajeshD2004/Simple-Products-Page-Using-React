@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    min-height: 80vh;
+}
+
+.aboutImage {
+    flex: 1;
+    max-width: 500px;
+}
+
+.aboutImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.aboutContent {
+    flex: 1;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutContent p:last-of-type {
+    margin-bottom: auto;
+}
+
+.aboutContent h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.aboutContent p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.contactIcons {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.iconItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.iconItem svg {
+    color: #2563eb;
+    font-size: 18px;
+}
+
+
